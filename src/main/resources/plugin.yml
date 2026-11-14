@@ -1,4 +1,4 @@
-name: Vital Verdict
+name: VitalVerdict
 version: '${version}'
 
 main: lol.bkd.vitalVerdict.VitalVerdict
@@ -6,3 +6,8 @@ api-version: '1.21.11'
 load: POSTWORLD
 
 website: https://bkd.lol
+
+permissions:
+  vitalverdict.vv.use:
+    description: Allows use of /vv
+    default: op

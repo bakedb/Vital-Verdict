@@ -6,6 +6,12 @@ config-version: 1
 # The number of lives each player starts with. Default is 6.
 lives: 6
 
+# The max health attribute for all players. In normal Minecraft gameplay, this is 20 (10 hearts). Default is 60 (30 hearts)
+max-health: 60
+
+# Turn on keep inventory when the game starts? Default value is 1
+keep-inventory: 1
+
 # Set the life count that the following name colors trigger at. Default is 4, 3, 2, and 1.
 colors:
   dark_green: 4 # Triggers at greater than or equal to this number
