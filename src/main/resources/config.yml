@@ -1,0 +1,29 @@
+# Vital Verdict Configuration
+
+# Do not change this value unless you know what you are doing.
+config-version: 1
+
+# The number of lives each player starts with. Default is 6.
+lives: 6
+
+# Set the life count that the following name colors trigger at. Default is 4, 3, 2, and 1.
+colors:
+  dark_green: 4 # Triggers at greater than or equal to this number
+  green: 3 # Triggers if dark_green evaluated to false and the number of lives is greater than or equal to this number
+  yellow: 2
+  red: 1
+
+# Time (in seconds) between each judgment period. Cannot be less than a minute, or else it will reset to default. An interval higher than 2 minutes is highly recommended. Default is 1800
+interval: 1800
+
+# Give a one-minute warning? Default value is 1
+one-minute-warning: 1
+
+# What should the one-minute warning message be? Default value is "1 minute remains until judgment."
+one-minute-message: "1 minute remains until judgment."
+
+# Give a warning when half of the interval has passed? Default value is 1
+half-interval-warning: 1
+
+# What should the half interval warning message be? Default value is "15 minutes remain until judgment."
+half-interval-message: "15 minutes remain until judgment."
