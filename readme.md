@@ -10,6 +10,12 @@ Every player also has a boosted max health (60 HP or 30 hearts by default).
 There is a timer with a set interval (30 minutes by default). Every time the timer elapses, the player with the lowest current health is immediately killed.
 
 Once you lose your last life, you are put into spectator.
+
+# Starting the Game
+To start the game, run `/vv start`. This will reset everything and set up gamerules and attributes.
+
+To stop the game, run `/vv stop`. Do not use this as a pause function. The best way to pause is to stop the server.
+
 ![2026-11-14_19.16.36.png](images/2026-11-14_19.16.36.png)
 ![2026-11-14_19.16.42.png](images/2026-11-14_19.16.42.png)
 ![2026-11-14_19.26.04.png](images/2026-11-14_19.26.04.png)
