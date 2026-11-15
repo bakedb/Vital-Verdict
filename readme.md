@@ -10,3 +10,7 @@ Every player also has a boosted max health (60 HP or 30 hearts by default).
 There is a timer with a set interval (30 minutes by default). Every time the timer elapses, the player with the lowest current health is immediately killed.
 
 Once you lose your last life, you are put into spectator.
+![2026-11-14_19.16.36.png](images/2026-11-14_19.16.36.png)
+![2026-11-14_19.16.42.png](images/2026-11-14_19.16.42.png)
+![2026-11-14_19.26.04.png](images/2026-11-14_19.26.04.png)
+![2026-11-14_19.26.07.png](images/2026-11-14_19.26.07.png)
